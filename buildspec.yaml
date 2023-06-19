@@ -39,7 +39,9 @@ phases:
   build:
     commands:
        
-       - ng build --prod
+       - node -v
+       - npm -v
+       - ng version
        - echo "build complete"
       
        
